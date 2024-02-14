@@ -1642,8 +1642,9 @@ void  writecon(const char *s)
 //  Purpose: writes string of characters to the console.
 //
 {
-    fprintf(stdout,"%s",s);
-    fflush(stdout);
+    // Hack a slient mode by commenting these 2 lines:
+    // fprintf(stdout,"%s",s);
+    // fflush(stdout);
 }
 
 //=============================================================================
