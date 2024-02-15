@@ -12,6 +12,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <time.h>
+#include <stdbool.h>
 #include "swmm5.h"
 
 int  main(int argc, char *argv[])
